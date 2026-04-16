@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { supabase } from "./client";
+import { supabase } from "../../client";
 import {
   Zap, TrendingUp, TrendingDown, AlertTriangle, Shield,
   Target, Crosshair, BarChart3, Loader2, Bell, BellOff, RefreshCw
