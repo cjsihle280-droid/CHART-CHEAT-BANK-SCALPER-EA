@@ -1,8 +1,8 @@
 import { useState } from "react";
-import LicenseEntry from "@/components/LicenseEntry";
-import AdminLogin from "@/components/AdminLogin";
-import AdminDashboard from "@/components/AdminDashboard";
-import TradingApp from "@/components/TradingApp";
+import LicenseEntry from "@/components/ui/LicenseEntry";
+import AdminLogin from "@/components/ui/AdminLogin";
+import AdminDashboard from "@/components/ui/AdminDashboard";
+import TradingApp from "@/components/ui/TradingApp";
 
 export type AppView = "home" | "admin-login" | "admin-dashboard";
 
